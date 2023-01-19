@@ -57,3 +57,5 @@ coverity
 # auto-generated files
 samples/rabbit/main-node_discovery.c
 samples/rabbit/my_config.h
+
+samples/pico/build

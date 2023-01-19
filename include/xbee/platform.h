@@ -359,6 +359,8 @@
    #include "../ports/win32/platform_config.h"
 #elif defined __MWERKS__ && defined __HC08__
    #include "../ports/hcs08/platform_config.h"
+#elif defined PICO
+   #include "../ports/pico/platform_config.h"
 #else
    #error "Unknown target"
 #endif
